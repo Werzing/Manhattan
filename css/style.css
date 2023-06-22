@@ -1204,7 +1204,7 @@ hr {
 
     .header__item {
         margin-right: 4px;
-        font-size: 7px;
+        font-size: 9px;
     }
 
     .header__button {
@@ -1526,29 +1526,29 @@ hr {
     }
 
     .info__posters img {
-        margin: 15px auto;
-        width: 50%;
-        height: 200px;
+        margin: 30px auto;
+        width: 90%;
+        height: 400px;
     }
 
 
     .info__posters__text {
-        width: 50%;
+        width: 90%;
         margin: 0 auto;
-        font-size: 5px;
+        font-size: 11px;
     }
 
     .info__posters__text__top {
         border: none;
-        font-size: 5px;
-        padding: 6px 11px;
+        font-size: 9px;
+        padding: 8px 13px;
         border-radius: 4px;
         font-weight: 430;
         margin-bottom: 25px;
     }
 
     .info__posters__text__title {
-        font-size: 11px;
+        font-size: 20px;
         font-weight: 600;
         margin-bottom: 15px;
     }
