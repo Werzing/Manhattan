@@ -1,0 +1,241 @@
+@media (min-width:1100px) {
+
+    .corp {
+        color: white;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .corp__button {
+        border: none;
+        padding: 8px 13px;
+        border-radius: 4px;
+        font-weight: 430;
+        margin-bottom: 25px;
+    }
+
+
+    .corp__info {
+        margin-bottom: 80px;
+    }
+
+    .corp__title {
+        font-size: 35px;
+        margin-top: 20px;
+        margin-bottom: 110px;
+    }
+
+    .corp__info__title {
+        font-size: 24px;
+        margin-bottom: 60px;
+    }
+
+    .corp__info__main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .corp__info__main__card {
+        flex-basis: 20%;
+    }
+
+    .corp__info__main__card:nth-child(1) {
+        margin-right: 100px;
+    }
+
+    .corp__info__main__card>img {
+        margin-bottom: 20px;
+    }
+
+
+    .why_we__content {
+        text-align: start;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why_we__content__list {
+        flex-basis: 50%;
+        list-style-image: url(../img/Без\ имени-2.png);
+    }
+
+    .why_we__content__item {
+        margin-bottom: 18px;
+    }
+
+    .why_we__content__item:last-child {
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1100px) and (min-width:700px) {
+    .corp {
+        color: white;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .corp__button {
+        border: none;
+        font-size: 13px;
+        padding: 8px 13px;
+        border-radius: 4px;
+        font-weight: 430;
+        margin-bottom: 25px;
+    }
+
+
+    .corp__info {
+        margin-bottom: 80px;
+    }
+
+    .corp__title {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .corp__info__title {
+        font-size: 19px;
+        margin-bottom: 60px;
+    }
+
+    .corp__info__main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .corp__info__main__card {
+        flex-basis: 25%;
+    }
+
+    .corp__info__main__card p {
+        font-size: 11px;
+    }
+
+    .corp__info__main__card:nth-child(1) {
+        margin-right: 100px;
+    }
+
+    .corp__info__main__card>img {
+        margin-bottom: 20px;
+    }
+
+
+    .why_we__content {
+        text-align: start;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why_we__content__list {
+        flex-basis: 50%;
+        list-style-image: url(../img/Без\ имени-2.png);
+        font-size: 12px;
+    }
+
+    .why_we__content__item {
+        margin-bottom: 18px;
+    }
+
+    .why_we__content__item:last-child {
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+@media (max-width:700px) {
+
+    .corp {
+        color: white;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .corp__button {
+        border: none;
+        font-size: 13px;
+        padding: 8px 13px;
+        border-radius: 4px;
+        font-weight: 430;
+        margin-bottom: 25px;
+    }
+
+
+    .corp__info {
+        margin-bottom: 40px;
+    }
+
+    .corp__title {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .corp__info__title {
+        font-size: 19px;
+        margin-bottom: 60px;
+    }
+
+    .corp__info__main {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .corp__info__main__card {
+        margin-bottom: 40px;
+    }
+
+    .corp__info__main__card p {
+        font-size: 11px;
+    }
+
+
+
+    .corp__info__main__card>img {
+        margin-bottom: 20px;
+    }
+
+
+    .why_we__content {
+        text-align: start;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why_we__content__list {
+        flex-basis: 80%;
+        list-style-image: url(../img/Без\ имени-2.png);
+        font-size: 12px;
+    }
+
+    .why_we__content__item {
+        margin-bottom: 18px;
+    }
+
+    .why_we__content__item:last-child {
+        margin: 0;
+    }
+
+}

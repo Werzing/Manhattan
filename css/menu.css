@@ -1,0 +1,129 @@
+@media (min-width:1100px) {
+
+.menu{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.menu__choose{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__choose-kitchen{
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu__choose-business__lunch{
+    flex-basis: 32.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.menu__choose-menu__bar{
+    flex-basis: 32%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu__choose__text{
+    font-size: 25px;
+    color: #846341;
+}
+
+}
+
+
+@media (max-width:1100px) and (min-width:700px) {
+
+.menu{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.menu__choose{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__choose-kitchen{
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu__choose-business__lunch{
+    flex-basis: 32.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.menu__choose-menu__bar{
+    flex-basis: 32%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu__choose__text{
+    font-size: 14px;
+    color: #846341;
+}
+
+}
+
+
+
+@media (max-width:700px) {
+    .menu{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .menu__choose{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .menu__choose-kitchen{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    
+    .menu__choose-business__lunch{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+
+    }
+    
+    
+    .menu__choose-menu__bar{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .menu__choose__text{
+        font-size: 14px;
+        color: #846341;
+    }
+}
