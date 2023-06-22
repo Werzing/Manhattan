@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/fav2.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MANHATTAN</title>
+</head>
+
+<body style="background-color: rgb(36, 8, 2);">
+
+    <header class="header wrap">
+        <nav class="header__nav">
+            <img class="header__nav__img" src="img/Logo.png" alt="">
+            <ul class="header__list">
+                <li class="header__item"><a href="index.html">Главная</a></li>
+                <li class="header__item"><a href="html/menu.html">Меню</a></li>
+                <li class="header__item"><a href="html/afisha.html">Афиша</a></li>
+                <li class="header__item"><a href="html/corp.html">Сотрудничество</a></li>
+                <li class="header__item"><a href="html/galer.html">Галерея</a></li>
+            </ul>
+            <button class="header__button">БРОНИРОВАНИЕ</button>
+        </nav>
+
+        <section class="header__poster">
+            <div class="poster__info">
+                <div class="poster__info__otstup">
+                    <button class="poster__info__button">SINCE 1996</button>
+                    <p class="poster__info__text poster__info__text-otstup">TRUE. FONTANKA.</p>
+                    <p class="poster__info__text">UNDERGROUND.</p>
+                </div>
+
+            </div>
+            <div class="poster__posters">
+                <div class="posters__buttons">
+                    <button class="posters__buttons__button" onclick="chenge_posters_poster()">БЛИЖАЙШИЕ</button>
+                    <button class="posters__buttons__button size" onclick="chenge_posters_poster()">СКОРО</button>
+                </div>
+
+                <div class="wall__posters" id="wall__posters">
+                    <img class="wall__posters__img" src="img/RD.png" alt="">
+                    <img class="wall__posters__img" src="img/RU.png" alt="">
+                    <img class="wall__posters__img" src="img/LD.png" alt="">
+                    <img class="wall__posters__img" src="img/LU.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="kitchen wrap" id="kitchen">
+        <button class="kitchen__button-top">TOP “MANHATTAN” MENU</button>
+        <h2 class="kitchen__h2">КУХНЯ</h2>
+        <div class="kitchen__dishes">
+            <img class="arrow arrow-left" onclick="previousSlide()" id="left" src="img/arrow-left.png" alt="">
+
+
+            <div class="main__dishes__dish">
+                <div class="item">
+                    <div class="dishes__dish">
+                        <img src="img/Dishes/Food1.png" alt="">
+                        <div class="dishes__dish__text">
+                            <div class="dishes__dish__text__title">
+                                <div class="dishes__dish__text__title__name">
+                                    <h3>AMET DONEC.</h3>
+                                    <p>200гр</p>
+                                </div>
+                                <button>550₽</button>
+                            </div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus
+                                quo
+                                dolorem!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="dishes__dish">
+                        <img src="img/Dishes/Food2.png" alt="">
+                        <div class="dishes__dish__text">
+                            <div class="dishes__dish__text__title">
+                                <div class="dishes__dish__text__title__name">
+                                    <h3>AMET DONEC.</h3>
+                                    <p>500гр</p>
+                                </div>
+                                <button>550௹</button>
+                            </div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus quo
+                                dolorem!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="dishes__dish">
+                        <img src="img/Dishes/Food3.png" alt="">
+                        <div class="dishes__dish__text">
+                            <div class="dishes__dish__text__title">
+                                <div class="dishes__dish__text__title__name">
+                                    <h3>AMET DONEC.</h3>
+                                    <p>400гр</p>
+                                </div>
+                                <button>550₧</button>
+                            </div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus quo
+                                dolorem!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="dishes__dish">
+                        <img src="img/Dishes/Food4.png" alt="">
+                        <div class="dishes__dish__text">
+                            <div class="dishes__dish__text__title">
+                                <div class="dishes__dish__text__title__name">
+                                    <h3>AMET DONEC.</h3>
+                                    <p>200гр</p>
+                                </div>
+                                <button>550﷼</button>
+                            </div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus quo
+                                dolorem!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="dishes__dish">
+                        <img src="img/Dishes/Food5.png" alt="">
+                        <div class="dishes__dish__text">
+                            <div class="dishes__dish__text__title">
+                                <div class="dishes__dish__text__title__name">
+                                    <h3>AMET DONEC.</h3>
+                                    <p>300гр</p>
+                                </div>
+                                <button>550₱</button>
+                            </div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus quo
+                                dolorem!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="dishes__dish">
+                        <img src="img/Dishes/Food6.png" alt="">
+                        <div class="dishes__dish__text">
+                            <div class="dishes__dish__text__title">
+                                <div class="dishes__dish__text__title__name">
+                                    <h3>AMET DONEC.</h3>
+                                    <p>500гр</p>
+                                </div>
+                                <button>550₰</button>
+                            </div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus quo
+                                dolorem!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="dishes__dish">
+                        <img src="img/Dishes/Food7.png" alt="">
+                        <div class="dishes__dish__text">
+                            <div class="dishes__dish__text__title">
+                                <div class="dishes__dish__text__title__name">
+                                    <h3>AMET DONEC.</h3>
+                                    <p>100гр</p>
+                                </div>
+                                <button>¥550</button>
+                            </div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus quo
+                                dolorem!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="dishes__dish">
+                        <img src="img/Dishes/Food8.png" alt="">
+                        <div class="dishes__dish__text">
+                            <div class="dishes__dish__text__title">
+                                <div class="dishes__dish__text__title__name">
+                                    <h3>AMET DONEC.</h3>
+                                    <p>300гр</p>
+                                </div>
+                                <button>$550</button>
+                            </div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus quo
+                                dolorem!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img class="arrow arrow-right" onclick="nextSlide()" id="right" src="img/arrow-right.png" alt="">
+        </div>
+
+        <button class="kitchen__button-bottom"><a class="kitchen__button-bottom-a" href="menu.html">ВСЕ
+                МЕНЮ</a></button>
+
+    </section>
+
+
+    <section class="info__posters wrap">
+        <div class="info__posters__text">
+            <button class="info__posters__text__top">TOP “MANHATTAN” EVENTS</button>
+            <h3 class="info__posters__text__title">БАНКЕТЫ</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente temporibus nihil animi, voluptate
+                perferendis praesentium voluptatem ab quisquam iure corporis. Nostrum, omnis neque fugiat atque animi
+                explicabo aperiam rerum ea!
+                Optio dolor cum deleniti cumque <br> <br> illum veritatis placeat debitis ad optio eaque fugiat commodi
+                praesentium inventore ipsam numquam quis. Accusamus?
+                Porro laboriosam vel molestiae quibusdam quam enim fugit delectus aliquam, quas itaque cumque aperiam!
+                Reiciendis quae maiores tenetur harum minima. commodi <br> <br> sequi perferendis rem, necessitatibus,
+                alias, veniam voluptas atque dolorem esse officiis dolor ullam ipsa consequuntur quibusdam.
+                Itaque, atque! Rerum atque et molestias consequuntur</p>
+            <button class="info__posters__text__bottom">ПОДРОБНЕЕ</button>
+        </div>
+        <img src="img/events.png" alt="">
+        <div class="info__posters__text">
+            <button class="info__posters__text__top">TOP “MANHATTAN” TOURISTS</button>
+            <h3 class="info__posters__text__title">ТУРИСТЫ</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente temporibus nihil animi, voluptate
+                perferendis praesentium voluptatem ab quisquam iure corporis. Nostrum, omnis neque fugiat atque animi
+                explicabo aperiam rerum ea!
+                Optio dolor cum deleniti cumque <br> <br> illum veritatis placeat debitis ad optio eaque fugiat commodi
+                praesentium inventore ipsam numquam quis. Accusamus?
+                Porro laboriosam vel molestiae quibusdam quam enim fugit delectus aliquam, quas itaque cumque aperiam!
+                Reiciendis quae maiores tenetur harum minima. commodi <br> <br> sequi perferendis rem, necessitatibus,
+                alias, veniam voluptas atque dolorem esse officiis dolor ullam ipsa consequuntur quibusdam.
+                Itaque, atque! Rerum atque et molestias consequuntur
+            </p>
+            <button class="info__posters__text__bottom">ПОДРОБНЕЕ</button>
+        </div>
+    </section>
+
+
+    <section class="teh wrap">
+        <button class="teh__button">TOP “MANHATTAN” PARTY</button>
+        <h3 class="teh__title">ТЕХРАЙДЕР</h3>
+        <div class="teh__flex">
+            <div class="accordion">
+                <dl>
+
+                    <dt>
+                        <a href="#accordion" aria-expanded="false" aria-controls="accordion"
+                            class="accordion-title accordionTitle js-accordionTrigger">Loudspeaker</a>
+                    </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion" aria-hidden="true">
+                        <ul class="accordion__list">
+                            <li class="accordion__item">Acoustic system BELL Top 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Mid 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Sub 1000W x 2</li>
+                            <li class="accordion__item">Front monitor Yamaha SM12V 300w x 2</li>
+                            <li class="accordion__item">Backside monitor Dynacord 500W x 2</li>
+                        </ul>
+                    </dd>
+
+                    <dt>
+                        <a href="#accordion1" aria-expanded="false" aria-controls="accordion"
+                            class="accordion-title accordionTitle js-accordionTrigger">Amplifier</a>
+                    </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion" aria-hidden="true">
+                        <ul class="accordion__list">
+                            <li class="accordion__item">Acoustic system BELL Top 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Mid 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Sub 1000W x 2</li>
+                            <li class="accordion__item">Front monitor Yamaha SM12V 300w x 2</li>
+                            <li class="accordion__item">Backside monitor Dynacord 500W x 2</li>
+                        </ul>
+                    </dd>
+
+                    <dt>
+                        <a href="#accordion1" aria-expanded="false" aria-controls="accordion"
+                            class="accordion-title accordionTitle js-accordionTrigger">Fon</a>
+                    </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion" aria-hidden="true">
+                        <ul class="accordion__list">
+                            <li class="accordion__item">Acoustic system BELL Top 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Mid 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Sub 1000W x 2</li>
+                            <li class="accordion__item">Front monitor Yamaha SM12V 300w x 2</li>
+                            <li class="accordion__item">Backside monitor Dynacord 500W x 2</li>
+                        </ul>
+                    </dd>
+
+                    <dt>
+                        <a href="#accordion1" aria-expanded="false" aria-controls="accordion"
+                            class="accordion-title accordionTitle js-accordionTrigger">Backline</a>
+                    </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion" aria-hidden="true">
+                        <ul class="accordion__list">
+                            <li class="accordion__item">Acoustic system BELL Top 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Mid 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Sub 1000W x 2</li>
+                            <li class="accordion__item">Front monitor Yamaha SM12V 300w x 2</li>
+                            <li class="accordion__item">Backside monitor Dynacord 500W x 2</li>
+                        </ul>
+                    </dd>
+
+                    <dt>
+                        <a href="#accordion1" aria-expanded="false" aria-controls="accordion"
+                            class="accordion-title accordionTitle js-accordionTrigger">Microphone set</a>
+                    </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion" aria-hidden="true">
+                        <ul class="accordion__list">
+                            <li class="accordion__item">Acoustic system BELL Top 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Mid 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Sub 1000W x 2</li>
+                            <li class="accordion__item">Front monitor Yamaha SM12V 300w x 2</li>
+                            <li class="accordion__item">Backside monitor Dynacord 500W x 2</li>
+                        </ul>
+                    </dd>
+
+                    <dt>
+                        <a href="#accordion1" aria-expanded="false" aria-controls="accordion"
+                            class="accordion-title accordionTitle js-accordionTrigger">Dj Equipment</a>
+                    </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion" aria-hidden="true">
+                        <ul class="accordion__list">
+                            <li class="accordion__item">Acoustic system BELL Top 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Mid 600W x 2</li>
+                            <li class="accordion__item">Acoustic system BELL Sub 1000W x 2</li>
+                            <li class="accordion__item">Front monitor Yamaha SM12V 300w x 2</li>
+                            <li class="accordion__item">Backside monitor Dynacord 500W x 2</li>
+                        </ul>
+                    </dd>
+
+                </dl>
+            </div>
+
+
+
+            <div class="teh__flex__info">
+                <h3 class="teh__flex__info__title">ЗВУКОРЕЖИССЕРЫ <br> КЛУБВ МАНХЭТТЕН</h3>
+
+                <div class="teh__flex__info__cards">
+
+                    <div class="teh__flex__info__cards__card">
+                        <img src="img/konstantin.png" alt="">
+                        <h4>ИЗАТОВ <br> КОНСТАНТИН</h4>
+                        <div class="teh__flex__info__cards__card__bottom">
+                            <div
+                                class="teh__flex__info__cards__card__bottom__media teh__flex__info__cards__card__bottom__media__left">
+                                <img src="img/vk.svg" alt="">
+                            </div>
+                            <div class="teh__flex__info__cards__card__bottom__media"><img src="img/telegram.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teh__flex__info__cards__card">
+                        <img src="img/david.png" alt="">
+                        <h4>ДАВИД<br>ХОЗЕЕВ</h4>
+                        <div class="teh__flex__info__cards__card__bottom">
+                            <div
+                                class="teh__flex__info__cards__card__bottom__media teh__flex__info__cards__card__bottom__media__left">
+                                <img src="img/vk.svg" alt="">
+                            </div>
+                            <div class="teh__flex__info__cards__card__bottom__media"><img src="img/telegram.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="contacts wrap">
+        <button class="contacts__button">TOP “MANHATTAN” PARTY</button>
+        <h3 class="contacts__title">КОНТАКТЫ</h3>
+        <div class="contacts__info">
+            <div class="contacts__info__text">
+                <h3>АДРЕС</h3>
+                <p>набережная реки Фонтанки, 90(вход в арке с белыми колоннами)</p>
+                <h3>ТЕЛЕФОН</h3>
+                <p>+7(812) 713-19-45</p>
+                <h3>РЕЖИМ РАБОТЫ</h3>
+                <p>Ежедневно с 12:00 до 6:00</p>
+                <hr class="contacts__info__text__hr">
+                <h3>ДИРЕКТОР</h3>
+                <p>Лидия Эмильевна, +7(921) 963-55-50</p>
+                <h3>ФРТ-ДИРЕКТОР</h3>
+                <span>Илиния Ионашко, +7(981) 989-43-30</span>
+            </div>
+
+            <iframe class="contacts__info__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7997.566521596937!2d30.311224225201947!3d59.92564346430021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631aa6e3b3193%3A0xe7c54da95407a617!2z0L3QsNCx0LXRgNC10LbQvdCw0Y8g0YDQtdC60Lgg0KTQvtC90YLQsNC90LrQuCwgOTDQujEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODA!5e0!3m2!1sru!2sru!4v1683187013703!5m2!1sru!2sru"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer class="footer wrap">
+        <hr>
+        <div class="footer__copyright">
+            <p>Copyright© 2022.Все права защищены.</p>
+            <p>Разработано d-e-n.ru</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
