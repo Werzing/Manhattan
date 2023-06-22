@@ -1199,12 +1199,11 @@ hr {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 0 9px;
     }
 
     .header__item {
         margin-right: 4px;
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .header__button {
@@ -1215,6 +1214,7 @@ hr {
         color: white;
         transition: 200ms;
         font-size: 6px;
+        display: none;
     }
 
     .header__button:hover {
@@ -1640,8 +1640,8 @@ hr {
         transition: transform 0.3s ease-in-out;
     }
 
-    .accordionTitle:hover,
-    .accordion__Heading:hover {
+    .accordionTitle:active,
+    .accordion__Heading:active {
         background-color: #ac5119;
     }
 
